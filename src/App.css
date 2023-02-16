@@ -1,5 +1,5 @@
 body {
-  font-family: "Josefin Sans";
+  font-family: "Work Sans Extra Light";
   background-color: #fffafb;
 }
 
@@ -22,7 +22,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ff2625;
+  color: 
+  #A437DB;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -58,7 +59,7 @@ body {
   top: 0px;
   width: 700px;
   height: 900px;
-  margin-top: -330px;
+
 }
 
 .exercise-card {
