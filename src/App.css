@@ -132,6 +132,15 @@ body {
     width: 320px;
     height: 300px;
   }
+
+  .form {
+    display: grid;
+    grid-template-columns: 1fx;
+    flex-direction: column;
+    font-size: 50px;
+    justify-self: center;
+    
+  }
 }
 
 @media screen and (max-width: 400px) {
