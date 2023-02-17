@@ -5,8 +5,6 @@ import { color } from "@mui/system";
 
 import { exercisesOptions, fetchData } from "../utils/fetchData";
 import HorizontalScrollbar from "./HorizontalScrollBar";
-{
-}
 
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState("");
@@ -69,7 +67,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
               fontWeight: "600",
               border: "none",
               borderRadius: "4px",
-              borderBlockColor: "#a437db",
+              borderBlockColor: "#c70039",
             },
             width: { lg: "800px", xs: "350px" },
             borderRadius: "20px",
@@ -83,7 +81,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <Button
           className="search-btn"
           sx={{
-            bgcolor: "#a437db",
+            bgcolor: "#c70039",
             color: "#ffffff",
             textTransform: "none",
             width: { lg: "180px", xs: "80px" },
