@@ -1,12 +1,11 @@
 import React from "react";
 
-const Header = () => {
+const Loader = () => {
   return (
     <div>
   
     </div>
-  
-    ) 
-}
+  ) 
+};
 
-export default Header;
+export default Loader;
