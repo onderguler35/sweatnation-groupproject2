@@ -1,10 +1,8 @@
-// import React from "react";
 import React, { useEffect, useState } from "react";
 import { Box, Button, Stack, TextField, Typography } from "@mui/material";
-import { color } from "@mui/system";
 
-import { exercisesOptions, fetchData } from "../utils/fetchData";
-import HorizontalScrollbar from "./HorizontalScrollBar";
+import { exerciseOptions, fetchData } from "../utils/fetchData";
+import HorizontalScrollbar from "./HorizontalScrollbar";
 
 const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
   const [search, setSearch] = useState("");
@@ -14,10 +12,10 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     const fetchExercisesData = async () => {
       const bodyPartsData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises/bodyPartList",
-        exercisesOptions
+        exerciseOptions
       );
 
-      setBodyPart(["all", ...bodyPartsData]);
+      setBodyParts(["all", ...bodyPartsData]);
     };
 
     fetchExercisesData();
@@ -27,7 +25,7 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
     if (search) {
       const exercisesData = await fetchData(
         "https://exercisedb.p.rapidapi.com/exercises",
-        exercisesOptions
+        exerciseOptions
       );
 
       const searchedExercises = exercisesData.filter(
@@ -38,30 +36,26 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
           item.bodyPart.toLowerCase().includes(search)
       );
 
+      window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
+
       setSearch("");
       setExercises(searchedExercises);
     }
   };
 
   return (
-    <Stack alignItems="center" mt="35px" justifyContent="center" p="20px">
+    <Stack alignItems="center" mt="37px" justifyContent="center" p="20px">
       <Typography
-        fontWeight={400}
-        sx={{ fontSize: { lg: "38px", xs: "28px" } }}
-        mb="25px"
+        fontWeight={700}
+        sx={{ fontSize: { lg: "44px", xs: "30px" } }}
+        mb="49px"
         textAlign="center"
       >
-        Fitness that fits your life.
+        Awesome Exercises You <br /> Should Know
       </Typography>
-      <Box
-        display="flex"
-        flexDirection="row"
-        justifyContent="center"
-        mb="72px"
-        width="100%"
-        height="20%"
-      >
+      <Box position="relative" mb="72px">
         <TextField
+          height="76px"
           sx={{
             input: {
               fontWeight: "600",
@@ -72,23 +66,22 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
             width: { lg: "800px", xs: "350px" },
             borderRadius: "20px",
           }}
-          height="76px"
           value={search}
-          onChange={(event) => setSearch(event.target.value.toLowerCase())}
+          onChange={(e) => setSearch(e.target.value.toLowerCase())}
           placeholder="Search Exercises"
           type="text"
-        ></TextField>
+        />
         <Button
           className="search-btn"
           sx={{
             bgcolor: "#c70039",
             color: "#ffffff",
             textTransform: "none",
-            width: { lg: "180px", xs: "80px" },
+            width: { lg: "173px", xs: "80px" },
+            height: "56px",
+            position: "absolute",
+            right: "0px",
             fontSize: { lg: "20px", xs: "14px" },
-            height: "55px",
-
-            right: "0",
           }}
           onClick={handleSearch}
         >
@@ -98,8 +91,9 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
       <Box sx={{ position: "relative", width: "100%", p: "20px" }}>
         <HorizontalScrollbar
           data={bodyParts}
-          bodyPart={bodyPart}
+          bodyParts
           setBodyPart={setBodyPart}
+          bodyPart={bodyPart}
         />
       </Box>
     </Stack>
