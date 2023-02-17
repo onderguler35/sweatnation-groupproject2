@@ -1,11 +1,7 @@
 import React from "react";
 
-const VideoCards = () => {
-  return (
-    <div>
-  
-    </div>
-  ) 
+const ExerciseVideos = () => {
+  return <div></div>;
 };
 
-export default VideoCards;
+export default ExerciseVideos;
