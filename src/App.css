@@ -24,7 +24,7 @@ body {
   justify-content: center;
   align-items: center;
   color: 
-  #A437DB;
+  #c70039;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
@@ -71,9 +71,9 @@ body {
 
 .contactBtn {
   height: 40px;
-  color:#fff ;
+  color:#ffffff ;
   font-size: 20px;
-  background-color: #ff2625;
+  background-color: #c70039;
   border-radius: 5px;
   border: none;
 
@@ -122,8 +122,8 @@ footer {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #ff2625;
+  background: #ffffff;
+  border-top: 4px solid #c70039;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -149,8 +149,8 @@ footer {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  color: #c70039 !important;
+  border: 1px solid #c70039 !important;
 }
 
 .exercise-video {
