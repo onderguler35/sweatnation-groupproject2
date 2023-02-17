@@ -57,10 +57,14 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <TextField
           height="76px"
           sx={{
-            input: { fontWeight: "700", border: "none", borderRadius: "4px" },
-            width: { lg: "1170px", xs: "350px" },
-            backgroundColor: "#fff",
-            borderRadius: "40px",
+            input: {
+              fontWeight: "600",
+              border: "none",
+              borderRadius: "4px",
+              borderBlockColor: "#c70039",
+            },
+            width: { lg: "800px", xs: "350px" },
+            borderRadius: "20px",
           }}
           value={search}
           onChange={(e) => setSearch(e.target.value.toLowerCase())}
@@ -70,8 +74,8 @@ const SearchExercises = ({ setExercises, bodyPart, setBodyPart }) => {
         <Button
           className="search-btn"
           sx={{
-            bgcolor: "#FF2625",
-            color: "#fff",
+            bgcolor: "#c70039",
+            color: "#ffffff",
             textTransform: "none",
             width: { lg: "173px", xs: "80px" },
             height: "56px",
