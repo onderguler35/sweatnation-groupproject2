@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactUs = () => {
   return (
-    <div className='wrapperDiv'>
+    <div className='formWrapperDiv'>
                 Please use the below form to contact our team. <br/> * indicates required fields.
 <form
         action="https://api.web3forms.com/submit"
