@@ -10,10 +10,12 @@ const HeroBanner = () => {
         mt: { lg: "212px", xs: "70px" },
         ml: { sm: "50px" },
       }}
-      postion="relative"
+      display="flex"
+      flexDirection="column"
+      alignItems="flex-start"
       p="20px"
     >
-      <Typography color="#a437db" fontWeight="600" fontSize="26px">
+      <Typography color="#c70039" fontWeight="600" fontSize="26px">
         Sweat Nation
       </Typography>
 
@@ -31,16 +33,30 @@ const HeroBanner = () => {
         Check out the most effective exercises
       </Typography>
       <Button
-        variant="outlined"
-        color="secondary"
+        variant="outline"
         href="#exercises"
-        sx={{ padding: "10px" }}
+        sx={{
+          padding: "10px",
+          color: "#C70039",
+          borderColor: "#c70039",
+          color: "#c70039",
+          backgroundColor: "c70039",
+          "&:hover": {
+            color: "#c70039",
+            borderColor: "#c70039",
+          },
+        }}
       >
         Explore Exercises
       </Button>
+      <img
+        src={HeroBannerImage}
+        alt="hero-banner"
+        className="hero-banner-img"
+      />
       <Typography
         fontWeight={600}
-        color="#a437db"
+        color="#c70039"
         sx={{
           opacity: 0.1,
           display: { lg: "block", xs: "none" },
@@ -49,12 +65,6 @@ const HeroBanner = () => {
       >
         Exercise
       </Typography>
-
-      <img
-        src={HeroBannerImage}
-        alt="hero-banner"
-        className="hero-banner-img"
-      />
     </Box>
   );
 };

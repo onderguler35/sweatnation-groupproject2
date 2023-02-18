@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# SweatNation Fitness App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Licence Badge](https://img.shields.io/badge/MIT-Licence-green)
 
-## Available Scripts
+## Table of Contents
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [Credits](#Credits)
+* [Licence](#Licence)
+* [Features](#Features)
+* [Contribute](#Contribute)
 
-In the project directory, you can run:
+## Description
+![BraveDevs](https://img.shields.io/badge/Brave-Devs-orange)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+SweatNation is a very handy fitness app which helps fellow fitness fans by giving them all the exercise recommendations they need. With a simple search by body part or exercise name, the app gives hundreds of high quality exercises and equipment they need for it. The results will give images illustrating exercises and also youtube videos with higher details to learn about the exercise the user requires to get info about.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+N/A
 
-### `npm test`
+## Usage
+Writing a professional readme file is very important for a develeper to reach audiences and this app helps generate the readme file easily and quickly for you.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
+Thanks to bootcamp teaching team
 
-### `npm run build`
+## Licence
+This app is distributed under ![Licence Badge](https://img.shields.io/badge/MIT-Licence-green)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
+N/A
+## Contribute
+N/A
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Tests
+N/A
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Questions
+Please click this link to go to [Github repo](https://github.com/onderguler35/sweatnation-groupproject2)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any questions or comments please [contact us](mailto:onder5@hotmail.com)
