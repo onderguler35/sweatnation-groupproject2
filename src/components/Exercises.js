@@ -7,7 +7,6 @@ import ExerciseCard from "./ExerciseCard";
 import Loader from "./Loader";
 
 const Exercises = ({ exercises, setExercises, bodyPart }) => {
-  console.log(exercises);
   const [currentPage, setCurrentPage] = useState(1);
   const [exercisesPerPage] = useState(6);
 
@@ -52,13 +51,12 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
   return (
     <Box id="exercises" sx={{ mt: { lg: "109px" } }} mt="50px" p="20px">
       <Typography
-        variant="subtitle2"
-        fontFamily="Roboto"
+        variant="h4"
         fontWeight="bold"
-        sx={{ fontSize: { lg: "30px", xs: "14px" } }}
-        mb="20px"
+        sx={{ fontSize: { lg: "44px", xs: "30px" } }}
+        mb="46px"
       >
-        Results :
+        Showing Results
       </Typography>
       <Stack
         direction="row"
