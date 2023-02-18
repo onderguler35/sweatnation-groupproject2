@@ -10,7 +10,9 @@ const HeroBanner = () => {
         mt: { lg: "212px", xs: "70px" },
         ml: { sm: "50px" },
       }}
-      postion="relative"
+      display="flex"
+      flexDirection="column"
+      alignItems="flex-start"
       p="20px"
     >
       <Typography color="#c70039" fontWeight="600" fontSize="26px">
@@ -47,6 +49,11 @@ const HeroBanner = () => {
       >
         Explore Exercises
       </Button>
+      <img
+        src={HeroBannerImage}
+        alt="hero-banner"
+        className="hero-banner-img"
+      />
       <Typography
         fontWeight={600}
         color="#c70039"
@@ -58,12 +65,6 @@ const HeroBanner = () => {
       >
         Exercise
       </Typography>
-
-      <img
-        src={HeroBannerImage}
-        alt="hero-banner"
-        className="hero-banner-img"
-      />
     </Box>
   );
 };

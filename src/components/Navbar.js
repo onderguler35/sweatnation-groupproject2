@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 
-import Logo from "../assets/icon-black.png";
+import Logo from "../assets/logo-animate.gif";
 
 const Navbar = () => (
   <Stack
+    display="flex"
     direction="row"
-    justifyContent="space-around"
+    justifyContent="space-evenly"
     sx={{
       gap: { sm: "123px", xs: "40px" },
       mt: { sm: "32px", xs: "20px" },
@@ -19,15 +20,20 @@ const Navbar = () => (
       <img
         src={Logo}
         alt="logo"
-        style={{ width: "48px", height: "48px", margin: "0px 20px" }}
+        style={{
+          width: "240px",
+          height: "240px",
+          margin: "0px",
+          alignItems: "center",
+        }}
       />
     </Link>
     <Stack
       direction="row"
       gap="40px"
-      fontFamily="Works SansWork Sans Extra Light"
+      fontFamily="Roboto"
       fontSize="24px"
-      alignItems="flex-end"
+      alignItems="center"
     >
       <Link
         to="/"

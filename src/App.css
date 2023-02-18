@@ -21,15 +21,14 @@ body {
   outline: none;
   border: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   color: 
-  #A437DB;
+  #c70039;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
   bottom: -20px;
-  right: 80px;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
@@ -71,9 +70,9 @@ body {
 
 .contactBtn {
   height: 40px;
-  color:#fff ;
+  color:#ffffff ;
   font-size: 20px;
-  background-color: #ff2625;
+  background-color: #c70039;
   border-radius: 5px;
   border: none;
 
@@ -89,9 +88,12 @@ footer {
   margin-top: auto;
 }
 
+.left-arrow {
+  left: 45%;
+}
 
 .right-arrow {
-  right: 140px;
+  right: 45%;
 }
 
 .right-arrow:hover,
@@ -112,8 +114,8 @@ footer {
 
 .hero-banner-img {
   position: absolute;
-  right: 40px;
-  top: 0px;
+  right: 20%;
+  top: 25%;
   width: 700px;
   height: 700px;
 
@@ -122,8 +124,8 @@ footer {
 .exercise-card {
   width: 400px;
   height: 445px;
-  background: #fff;
-  border-top: 4px solid #ff2625;
+  background: #ffffff;
+  border-top: 4px solid #c70039;
   border-bottom-left-radius: 20px;
   text-decoration: none;
   display: flex;
@@ -149,8 +151,8 @@ footer {
 }
 
 .search-btn:hover {
-  color: #ff2625 !important;
-  border: 1px solid #ff2625 !important;
+  color: #c70039 !important;
+  border: 1px solid #c70039 !important;
 }
 
 .exercise-video {
