@@ -37,8 +37,8 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
     <Typography
       fontSize="24px"
       fontWeight="bold"
-      fontFamily="Work Sans"
-      color="#791B19"
+      fontFamily="Roboto"
+      color="#C70039"
       textTransform="capitalize"
     >
       {" "}

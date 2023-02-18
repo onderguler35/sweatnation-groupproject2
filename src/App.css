@@ -21,15 +21,14 @@ body {
   outline: none;
   border: none;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   color: 
   #c70039;
   font-size: 25px;
   border-radius: 4px;
   position: absolute;
   bottom: -20px;
-  right: 80px;
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
 }
@@ -89,9 +88,12 @@ footer {
   margin-top: auto;
 }
 
+.left-arrow {
+  left: 45%;
+}
 
 .right-arrow {
-  right: 140px;
+  right: 45%;
 }
 
 .right-arrow:hover,
@@ -112,8 +114,8 @@ footer {
 
 .hero-banner-img {
   position: absolute;
-  right: 40px;
-  top: 0px;
+  right: 20%;
+  top: 25%;
   width: 700px;
   height: 700px;
 
