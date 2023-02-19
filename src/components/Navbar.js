@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Stack } from "@mui/material";
 
-import Logo from "../assets/logo-animate.gif";
+import Logo from "../assets/logos/logo-animate.gif";
 
 const Navbar = () => (
   <Stack
