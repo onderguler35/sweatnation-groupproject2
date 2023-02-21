@@ -4,13 +4,13 @@
 
 ## Table of Contents
 
-- [Description](#Description)
-- [User Story](#UserStory)
-- [AcceptanceCriteria](#AcceptanceCriteria)
-- [Credits](#Credits)
-- [Licence](#Licence)
-- [Features](#Features)
-- [Contribute](#Contribute)
+* [Description](#Description)
+* [User Story](#UserStory)
+* [Acceptance Criteria](#AcceptanceCriteria)
+* [Credits](#Credits)
+* [Licence](#Licence)
+* [Features](#Features)
+* [Contribute](#Contribute)
 
 ## Our Team (Brave Dev)
 
