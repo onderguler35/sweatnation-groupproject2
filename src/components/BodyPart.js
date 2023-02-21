@@ -2,8 +2,10 @@ import React from "react";
 import { Stack, Typography } from "@mui/material";
 import Icon from "../assets/icons/gym.png";
 
-const BodyPart = ({ item, setBodyPart, bodyPart }) => (
-  <Stack
+const BodyPart = (
+  { item, setBodyPart, bodyPart } // destructuring props
+) => (
+  <Stack // MUI Stack component
     type="button"
     alignItems="center"
     justifyContent="center"
@@ -29,12 +31,13 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
           }
     }
     onClick={() => {
+      // onClick function
       setBodyPart(item);
       window.scrollTo({ top: 1800, left: 100, behavior: "smooth" });
     }}
   >
     <img src={Icon} alt="dumbbell" style={{ width: "40px", height: "40px" }} />
-    <Typography
+    <Typography // MUI Typography component
       fontSize="24px"
       fontWeight="bold"
       fontFamily="Roboto"
@@ -47,4 +50,4 @@ const BodyPart = ({ item, setBodyPart, bodyPart }) => (
   </Stack>
 );
 
-export default BodyPart;
+export default BodyPart; // exporting BodyPart component

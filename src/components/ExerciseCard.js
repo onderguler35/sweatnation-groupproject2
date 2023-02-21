@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 import { Stack, Typography, Button } from "@mui/material";
 
 const ExerciseCard = ({ exercise }) => {
+  // destructuring props
   return (
+    // returning the JSX
     <Link className="exercise-card" to={`/exercise/${exercise.id}`}>
       <img src={exercise.gifUrl} alt={exercise.name} loading="lazy" />
       <Stack direction="row">
@@ -47,4 +49,4 @@ const ExerciseCard = ({ exercise }) => {
   );
 };
 
-export default ExerciseCard;
+export default ExerciseCard; // exporting ExerciseCard component

@@ -1,10 +1,12 @@
-import React from "react";
-import { Box, Stack, Typography, Button } from "@mui/material";
+import React from "react"; // importing React
+import { Box, Stack, Typography, Button } from "@mui/material"; // importing Stack component from Material UI
 
-import HeroBannerImage from "../assets/banners/banner_bak.png";
+import HeroBannerImage from "../assets/banners/banner_bak.png"; // importing HeroBannerImage
 
 const HeroBanner = () => {
+  // creating HeroBanner component
   return (
+    // returning the JSX
     <Box
       sx={{
         mt: { lg: "212px", xs: "70px" },
@@ -32,9 +34,9 @@ const HeroBanner = () => {
       <Typography fontSize="22px" lineHeight="35px" mb={3}>
         Check out the most effective exercises
       </Typography>
-      <Button variant="contained" color='error' href='#exercises'>
+      <Button variant="contained" color="error" href="#exercises">
         Explored Exercises
-    </Button>
+      </Button>
       <img
         src={HeroBannerImage}
         alt="hero-banner"
@@ -55,4 +57,4 @@ const HeroBanner = () => {
   );
 };
 
-export default HeroBanner;
+export default HeroBanner; // exporting HeroBanner component
