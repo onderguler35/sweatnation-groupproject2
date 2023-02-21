@@ -1,8 +1,10 @@
-import React from "react";
-import { Typography } from "@mui/material";
+import React from "react"; // importing React
+import { Typography } from "@mui/material"; // importing MUI Typography component
 
 const Footer = () => {
+  // creating Footer component
   return (
+    // returning the JSX
     <Typography
       sx={{
         fontFamily: "Roboto",
@@ -16,4 +18,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer; // exporting Footer component
