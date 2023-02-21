@@ -5,7 +5,8 @@ import { Stack } from "@mui/material";
 import Logo from "../assets/logos/logo-animate.gif";
 
 const Navbar = () => (
-  <Stack
+  // This is the Navbar component that is being rendered on the Home page.
+  <Stack // This is the Stack component that is being rendered on the Home page.
     display="flex"
     direction="row"
     justifyContent="space-evenly"
@@ -17,6 +18,7 @@ const Navbar = () => (
     px="20px"
   >
     <Link to="/">
+      {" "}
       <img
         src={Logo}
         alt="logo"
@@ -27,7 +29,7 @@ const Navbar = () => (
           alignItems: "center",
         }}
       />
-    </Link>
+    </Link>{" "}
     <Stack
       direction="row"
       gap="40px"
@@ -35,7 +37,7 @@ const Navbar = () => (
       fontSize="24px"
       alignItems="center"
     >
-      <Link
+      <Link // This is the Link component that is being rendered on the Home page.
         to="/"
         style={{
           textDecoration: "none",
@@ -45,7 +47,14 @@ const Navbar = () => (
       >
         Home
       </Link>
-      <a href="#exercises" style={{ textDecoration: "none", color: "#761519", borderBottom:"3px solid #c70039" }}>
+      <a
+        href="#exercises"
+        style={{
+          textDecoration: "none",
+          color: "#761519",
+          borderBottom: "3px solid #c70039",
+        }}
+      >
         Exercises
       </a>
       <Link
