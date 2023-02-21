@@ -4,27 +4,49 @@
 
 ## Table of Contents
 * [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
+* [User Story](#UserStory)
+* [Acceptance Criteria](#Acceptance Criteria)
 * [Credits](#Credits)
 * [Licence](#Licence)
 * [Features](#Features)
 * [Contribute](#Contribute)
 
+## Our Team (Brave Dev)
+Sarah Hagen
+Tarik Khamliche
+Onder Guler;
+Desmond Ieong (Hok Man)
+
 ## Description
 ![BraveDevs](https://img.shields.io/badge/Brave-Devs-orange)
 
+SweatNation - a fitness app that helps the fitness fans and bodybuilders with exercise recommendations, high quality illustrations and demonstration videos on various body parts that they would like to train upon, with a simple search by body parts or the exercise name. 
 
-SweatNation is a very handy fitness app which helps fellow fitness fans by giving them all the exercise recommendations they need. With a simple search by body part or exercise name, the app gives hundreds of high quality exercises and equipment they need for it. The results will give images illustrating exercises and also youtube videos with higher details to learn about the exercise the user requires to get info about.  
+## User Story
 
-## Installation
-N/A
+####What problem does this application solve?
 
-## Usage
-Writing a professional readme file is very important for a develeper to reach audiences and this app helps generate the readme file easily and quickly for you.
+As a fitness fan, I want the app to be able to find the exercises on various body parts that I could train up.
+As a fitness fan, I want to be able to see how the exercises should be done.
+As a fitness fan, I want to see some suggestions for popular destinations on the welcome page.
+
+## Acceptance Criteria
+
+#### The Structure
+
+- The webpage includes a navigation bar React component;
+- The webpage includes a search bar;
+- The webpage has its custom designed logo in React;
+- The user can search different exercises that they are interested in;
+- The user can use the horizontal bar to search for the body parts that they would like to train;
+- The user can type in the search bar and press on the search button to get results of exercises that they would like to train;
+- The webpage includes styling in Bootstrap v4.6 as well as custom CSS;
+- The webpage fetches data using JQuery from two open source APIs: Rapid API and Youtube API;
+- The webpage’s React App.js follows a logical structure with seperate components throughout the code; and
+- The webpage is made responsive using Media Query in React CSS stylesheet.
 
 ## Credits
-Thanks to bootcamp teaching team
+Thank you to Mr. JD Tedlock and Teaching Assistant team for their contributions.
 
 ## Licence
 This app is distributed under ![Licence Badge](https://img.shields.io/badge/MIT-Licence-green)
