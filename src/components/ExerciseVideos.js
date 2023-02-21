@@ -63,4 +63,5 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
     </Box>
   );
 };
+
 export default ExerciseVideos; // exporting ExerciseVideos component

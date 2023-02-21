@@ -64,7 +64,7 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
         sx={{ fontSize: { lg: "44px", xs: "30px" } }}
         mb="46px"
       >
-        Showing Results
+        Results :
       </Typography>
       <Stack
         direction="row"
