@@ -5,7 +5,7 @@
 ## Table of Contents
 * [Description](#Description)
 * [User Story](#UserStory)
-* [Acceptance Criteria](#Acceptance Criteria)
+* [Acceptance Criteria](#AcceptanceCriteria)
 * [Credits](#Credits)
 * [Licence](#Licence)
 * [Features](#Features)
@@ -24,7 +24,7 @@ SweatNation - a fitness app that helps the fitness fans and bodybuilders with ex
 
 ## User Story
 
-####What problem does this application solve?
+### What problem does this application solve?
 
 As a fitness fan, I want the app to be able to find the exercises on various body parts that I could train up.
 As a fitness fan, I want to be able to see how the exercises should be done.
