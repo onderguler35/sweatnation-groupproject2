@@ -12,16 +12,17 @@
 * [Features](#Features)
 * [Contribute](#Contribute)
 
-## Our Team (Brave Dev)
+## Our Team ![BraveDevs](https://img.shields.io/badge/Brave-Devs-orange)
 
 Sarah Hagen
+
 Tarik Khamliche
-Onder Guler;
+
+Onder Guler
+
 Desmond Ieong (Hok Man)
 
 ## Description
-
-![BraveDevs](https://img.shields.io/badge/Brave-Devs-orange)
 
 SweatNation - a fitness app that helps the fitness fans and bodybuilders with exercise recommendations, high quality illustrations and demonstration videos on various body parts that they would like to train upon, with a simple search by body parts or the exercise name.
 
@@ -57,6 +58,8 @@ Thank you to Mr. JD Tedlock and Teaching Assistant team for their contributions.
 This app is distributed under ![Licence Badge](https://img.shields.io/badge/MIT-Licence-green)
 
 ## Features
+
+
 
 ##### Main Pages
 
