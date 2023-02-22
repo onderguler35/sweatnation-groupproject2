@@ -59,6 +59,8 @@ This app is distributed under ![Licence Badge](https://img.shields.io/badge/MIT-
 
 ## Features
 
+
+
 ##### Main Pages
 
 ![Main Page 1](src/assets/readme/printscreen%20main-1.jpg)
